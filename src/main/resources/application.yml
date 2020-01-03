@@ -1,0 +1,14 @@
+
+
+#微信企业付款到零钱
+wechatTransfers:
+  config:
+    transfersPayUrl: https://api.mch.weixin.qq.com/mmpaymkttransfers/promotion/transfers
+    transfersPayQueryUrl: https://api.mch.weixin.qq.com/mmpaymkttransfers/gettransferinfo
+    appId: wx28d197e63fe93312
+    mchId: 1536476981
+    certificatePath: /app/files/apiclient_cert.p12
+    apiSecretKey: p5ifB3uOPzX7pE2JDmWEGFrr5XAlSxuT
+    checkName: NO_CHECK
+    amount: 100
+    desc: 测试微信企业付款到零钱
